@@ -1,5 +1,5 @@
 .App {
-  align-items: center;
+  align-items: top;
   background: white;
   display: grid;
   height: 100vh;
@@ -18,6 +18,12 @@ button {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0.5rem;
+}
+
+p { 
+  color: black;
+  font-size: 3rem;
+
 }
 
 .red {

@@ -3,7 +3,7 @@ import './App.css';
 import Button from './Button.js';
 
 function App() {
-  const [color, setColor] = useState('blue');
+  const [color, setColor] = useState('white');
 
   return (
     <div
@@ -20,6 +20,8 @@ function App() {
         <Button color="purple" setColor={setColor} />
         <Button color="tomato" setColor={setColor} />
         <Button color="hotpink" setColor={setColor} />
+      <p>Welcome to my React JS Party!!!  This is where coding under the influence is legal!</p>
+      
       </div>
     </div>
   );

@@ -10,7 +10,10 @@ function Button({ color, setColor }) {
       }}
       onClick={() => {
         console.log('clicked');
+       
         setColor(color);
+        console.log('color');
+
       }}
     >
       {color}
